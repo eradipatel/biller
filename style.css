@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f7f7f7;
+}
+
+.container {
+    max-width: 700px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    background-color: #fdfdfd;
+    transition: 0.2s;
+}
+
+.item:hover {
+    background-color: #e0f7fa;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.qty-controls {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.qty-input {
+    width: 60px;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.qty-input:focus {
+    outline: none;
+    border-color: #00796b;
+}
+
+.item button {
+    padding: 5px 10px;
+    background-color: #00796b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.item button:hover {
+    background-color: #004d40;
+}
+
+#items-list {
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.discount {
+    margin: 15px 0;
+}
+
+#bill {
+    margin-top: 20px;
+}
